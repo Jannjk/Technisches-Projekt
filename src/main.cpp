@@ -17,8 +17,7 @@
 int bewegungSensor = 0;// Bewegungssensor
 MFRC522 rfid(SS_PIN, RST_PIN); //RFID reader
 // WIFI
-const char* ssidHS = "nao";
-const char* passwordHS = "HsPfNaoH25V4";
+
 const char* serverAdress = "192.168.2.175";
 
 
